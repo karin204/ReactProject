@@ -1,0 +1,54 @@
+.App {
+  text-align: left;
+  height:100%;
+  width:1000px;
+}
+
+p{
+  word-spacing: 3em;
+  font-size: 30px;
+  text-align: left;
+}
+
+.Top{
+  border-bottom: 1px solid black;
+  height: 45px;
+  width: 2000px;
+  padding-bottom: 0;
+  padding-left: 1%;
+}
+
+.Center{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  align-content: space-between;
+}
+
+.Countries{
+  width:200px; 
+  height:100%;
+}
+
+.Cities{
+  width:200px; 
+}
+
+.Companies{
+  width:200px; 
+}
+
+.Map{
+  width:400px; 
+}
+
+.country{
+  font-size:'30px';
+  color:'RoyalBlue';
+  box-sizing: 'content-box';
+  padding: '5px 0';
+}
+
+#map {
+  height: 100%;
+}
